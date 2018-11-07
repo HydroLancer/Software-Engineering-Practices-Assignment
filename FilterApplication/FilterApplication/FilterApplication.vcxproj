@@ -91,6 +91,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\DynamicLib;E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\StaticLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,6 +152,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="filter.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
