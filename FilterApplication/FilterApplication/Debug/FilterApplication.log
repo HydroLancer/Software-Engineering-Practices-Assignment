@@ -1,0 +1,5 @@
+﻿  FilterApplication.cpp
+e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(12): error C2065: 'MAX_DATA': undeclared identifier
+e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(14): error C2065: 'inputFile': undeclared identifier
+e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(14): error C2065: 'MAX_DATA': undeclared identifier
+e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(14): error C3861: 'LoadMeasurements': identifier not found
