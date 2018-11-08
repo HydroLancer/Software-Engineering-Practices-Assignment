@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  filtering.cpp
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\staticlib\filtering.cpp(17): error C2065: 'InvalidParameters': undeclared identifier

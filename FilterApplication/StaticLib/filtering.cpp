@@ -2,14 +2,13 @@
 #include <fstream>
 #include <iostream>
 #include "filter.h"
-using namespace std;
 
 int UseFilter(WCHAR* dllName, int data[], int count, WCHAR* parameterString)
 {
 	return 0;
 }
 
-int LoadMeasurements(WCHAR* inputFile, int data[], int maxSize)
+int LoadMeasurements(string inputFile, int data[], int maxSize)
 {
 	ifstream input(inputFile);
 	if (!input)
@@ -22,6 +21,7 @@ int LoadMeasurements(WCHAR* inputFile, int data[], int maxSize)
 		for (int i = 0; i < maxSize; i++)
 		{
 			input >> data[i];
+			stack++;
 		}
 	}
 	return 0;

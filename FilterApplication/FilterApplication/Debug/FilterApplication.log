@@ -1,5 +1,3 @@
 ﻿  FilterApplication.cpp
-e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(12): error C2065: 'MAX_DATA': undeclared identifier
-e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(14): error C2065: 'inputFile': undeclared identifier
-e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(14): error C2065: 'MAX_DATA': undeclared identifier
-e:\uni stuff!\2nd year\software engineering practices\software-engineering-practices-assignment\filterapplication\filterapplication\filterapplication.cpp(14): error C3861: 'LoadMeasurements': identifier not found
+StaticLib.lib(filtering.obj) : error LNK2005: "int stack" (?stack@@3HA) already defined in FilterApplication.obj
+C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Debug\FilterApplication.exe : fatal error LNK1169: one or more multiply defined symbols found
