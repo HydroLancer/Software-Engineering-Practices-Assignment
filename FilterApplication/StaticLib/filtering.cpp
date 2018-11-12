@@ -1,7 +1,7 @@
 #include "stdafx.h"
-#include <fstream>
-#include <iostream>
 #include "filter.h"
+
+using namespace std;
 
 int UseFilter(WCHAR* dllName, int data[], int count, WCHAR* parameterString)
 {

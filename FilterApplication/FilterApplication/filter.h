@@ -7,9 +7,14 @@
 #define WCHAR char
 #endif
 #include <string>
+#include <fstream>
+#include <iostream>
+
 //Error codes
 
 using namespace std;
+
+string inputFile = "input1.txt";
 
 int stack = 0;
 const int Success = 0;
@@ -18,6 +23,9 @@ const int DllNotFound = -2;		// can't find dll to import
 const int DllInvalidFormat = -3;	// Unable to find import function in the dll
 const int UnknownError = -4;
 const int InvalidParameters = -5;
+
+const int MAX_DATA = 1000;  // the maximum size of the array for loading data 
+const int DATE_SIZE = 19;  // the maximum size of a date as a null-terminated string
 
 //in SLL
 extern int UseFilter(WCHAR* dllName, int data[], int count, WCHAR* parameterString);	//load DLL at Runtime from file and process data stored in the array using Filter() function FROM THE DLL
