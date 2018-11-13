@@ -3,13 +3,8 @@
 #include <Windows.h>
 using namespace std;
 
-<<<<<<< HEAD
-int UseFilter(WCHAR* dllName, int data[], int count, string parameterString)
-=======
-using namespace std;
 
 int UseFilter(WCHAR* dllName, int data[], int count, WCHAR* parameterString)
->>>>>>> ce829d920c5502fe67aaa6204ccbb98c55307024
 {
 	typedef int(*FilterProc)(int[], int, string);
 	HINSTANCE loadLib = LoadLibrary(dllName);
@@ -21,7 +16,7 @@ int UseFilter(WCHAR* dllName, int data[], int count, WCHAR* parameterString)
 
 		if (ProcAdd != NULL)
 		{
-			ProcAdd(data, count, parameterString);
+			ProcAdd(data, count, //parameterString);
 			return Success;
 		}
 		return DllInvalidFormat;
