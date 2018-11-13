@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 ﻿  FilterApplication.vcxproj -> E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\Release\FilterApplication.exe
+=======
+﻿  FilterApplication.cpp
+LINK : fatal error LNK1181: cannot open input file 'C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Release\StaticLib.lib'
+>>>>>>> ce829d920c5502fe67aaa6204ccbb98c55307024

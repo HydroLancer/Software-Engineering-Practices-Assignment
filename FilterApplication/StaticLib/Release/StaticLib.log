@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 ﻿  StaticLib.vcxproj -> E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\Release\StaticLib.lib
+=======
+﻿  filtering.cpp
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\staticlib\filtering.cpp(11): error C2065: 'string': undeclared identifier
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\staticlib\filtering.cpp(11): error C2146: syntax error: missing ')' before identifier 'inputFile'
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\staticlib\filtering.cpp(12): error C2143: syntax error: missing ';' before '{'
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\staticlib\filtering.cpp(12): error C2447: '{': missing function header (old-style formal list?)
+>>>>>>> ce829d920c5502fe67aaa6204ccbb98c55307024

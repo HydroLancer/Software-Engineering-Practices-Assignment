@@ -1,2 +1,8 @@
 ﻿  FilterApplication.cpp
+<<<<<<< HEAD
   FilterApplication.vcxproj -> E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\Debug\FilterApplication.exe
+=======
+StaticLib.lib(filtering.obj) : error LNK2005: "int stack" (?stack@@3HA) already defined in FilterApplication.obj
+StaticLib.lib(filtering.obj) : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > inputFile" (?inputFile@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in FilterApplication.obj
+C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Debug\FilterApplication.exe : fatal error LNK1169: one or more multiply defined symbols found
+>>>>>>> ce829d920c5502fe67aaa6204ccbb98c55307024

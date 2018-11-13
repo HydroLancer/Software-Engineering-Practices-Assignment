@@ -7,21 +7,32 @@
 #define WCHAR char
 #endif
 #include <string>
+<<<<<<< HEAD
 
 #ifndef ASEXPORT
 #define DLLIMPORTOREXPORT dllimport
 #else
 #define DLLIMPORTOREXPORT dllimport
 #endif
+=======
+#include <fstream>
+#include <iostream>
+>>>>>>> ce829d920c5502fe67aaa6204ccbb98c55307024
 
 //Error codes
 
 using namespace std;
 
+<<<<<<< HEAD
 extern string outputFile;
 extern string inputFile;
 extern int stack;
 
+=======
+string inputFile = "input1.txt";
+
+int stack = 0;
+>>>>>>> ce829d920c5502fe67aaa6204ccbb98c55307024
 const int Success = 0;
 const int Failure = -1;
 const int DllNotFound = -2;		// can't find dll to import
