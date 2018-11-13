@@ -125,6 +125,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\StaticLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -166,6 +167,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DynamicLib\DynamicLib.vcxproj">
+      <Project>{cee8391e-307d-4cce-905f-f80c55e04394}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\StaticLib\StaticLib.vcxproj">
       <Project>{90e59043-1c2e-418b-9cf6-2dba9b278fc2}</Project>
     </ProjectReference>

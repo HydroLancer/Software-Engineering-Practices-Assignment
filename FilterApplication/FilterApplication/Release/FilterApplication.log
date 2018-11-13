@@ -1,3 +1,1 @@
-﻿  pch.cpp
-  FilterApplication.cpp
-LINK : fatal error LNK1181: cannot open input file 'C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Release\StaticLib.lib'
+﻿  FilterApplication.vcxproj -> E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\Release\FilterApplication.exe

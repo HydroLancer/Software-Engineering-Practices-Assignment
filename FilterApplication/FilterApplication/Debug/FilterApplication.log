@@ -1,3 +1,2 @@
 ﻿  FilterApplication.cpp
-StaticLib.lib(filtering.obj) : error LNK2005: "int stack" (?stack@@3HA) already defined in FilterApplication.obj
-C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Debug\FilterApplication.exe : fatal error LNK1169: one or more multiply defined symbols found
+  FilterApplication.vcxproj -> E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\Debug\FilterApplication.exe
