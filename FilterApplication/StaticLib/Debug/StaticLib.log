@@ -1,3 +1,2 @@
-﻿  filtering.cpp
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winnt.h(444): error C2632: 'wchar_t' followed by 'wchar_t' is illegal
-c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winnt.h(444): warning C4091: 'typedef ': ignored on left of 'wchar_t' when no variable is declared
+﻿  StaticLib.cpp
+  StaticLib.vcxproj -> E:\Uni Stuff!\2nd Year\Software Engineering Practices\Software-Engineering-Practices-Assignment\FilterApplication\Debug\StaticLib.lib
