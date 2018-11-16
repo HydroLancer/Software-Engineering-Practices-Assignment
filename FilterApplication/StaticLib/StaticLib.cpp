@@ -15,9 +15,9 @@ int UseFilter(const WCHAR* dllName, int data[], int count, const WCHAR* paramete
 
 	if (NULL != Filter)
 		{
-			Filter(data, count, parameterString);
+			int dataProcessed = Filter(data, count, parameterString);
 			
-			return Success;
+			return dataProcessed;
 		}
 		return DllInvalidFormat;
 	}
@@ -45,7 +45,7 @@ int LoadMeasurements(const WCHAR* inputFile, int data[], int maxSize)
 			stack++;					//used for determining how much data is actually in the array, rather than going through the entire empty array. 
 			if (input.eof())
 			{
-				return Success;			//just stops the loop. 
+				return stack;			//just stops the loop. 
 			}
 		}
 	}
@@ -68,7 +68,7 @@ int SaveMeasurements(const WCHAR* outputFile, int data[], int maxSize)
 			output << data[i] << endl;
 		}
 		output.close();
-		return Success;
+		return maxSize;
 	}
 	return UnknownError;
 	
