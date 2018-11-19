@@ -13,11 +13,15 @@ int UseFilter(const WCHAR* dllName, int data[], int count, const WCHAR* paramete
 	{
 		Filter = (FilterProc)GetProcAddress(loadLib, "Filter");
 
-	if (NULL != Filter)
+		if (NULL != Filter)
 		{
 			int dataProcessed = Filter(data, count, parameterString);
 			
 			return dataProcessed;
+		}
+		else
+		{
+			return InvalidParameters;
 		}
 		return DllInvalidFormat;
 	}
