@@ -10,6 +10,8 @@
 #include <fstream>
 #include <iostream>
 #include <Windows.h>
+#include <cassert>
+
 using namespace std;
 
 //parameters for functions both in SLL and DLL.

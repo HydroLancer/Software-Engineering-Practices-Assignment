@@ -1,4 +1,13 @@
 ﻿  DynamicLib.cpp
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(6): warning C4005: 'assert': macro redefinition
+  c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(4): note: see previous definition of 'assert'
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(4): warning C4603: 'assert': macro is not defined or definition is different after precompiled header use
+  c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(4): note: Add macro to precompiled header instead of defining here
+  c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(9): note: use of precompiled header
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(6): warning C4603: 'assert': macro is not defined or definition is different after precompiled header use
+  c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(6): note: Add macro to precompiled header instead of defining here
+  c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(9): note: use of precompiled header
+c:\users\hydro\desktop\uni lab stuff\software-engineering-practices-assignment\filterapplication\dynamiclib\dynamiclib.cpp(67): warning C4715: 'Filter': not all control paths return a value
 dllmain.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
      Creating library C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Debug\DynamicLib.lib and object C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Debug\DynamicLib.exp
   DynamicLib.vcxproj -> C:\Users\Hydro\Desktop\Uni Lab Stuff\Software-Engineering-Practices-Assignment\FilterApplication\Debug\DynamicLib.dll
